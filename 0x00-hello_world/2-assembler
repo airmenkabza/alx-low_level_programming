@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S "${CFILE%.c}.i" -o "${CFILE%.c}.s"
+gcc -S -masm=intel -fverbose-asm -o "${CFILE%.c}.s" "${CFILE%.c}.i"
