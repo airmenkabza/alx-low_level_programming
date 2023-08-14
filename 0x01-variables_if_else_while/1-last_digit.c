@@ -15,10 +15,6 @@ int lastDigit;
 srand(time(0));
 n = rand();
 lastDigit = n % 10;
-if (lastDigit < 0)
-{
-lastDigit = -lastDigit;
-}
 printf("Last digit of %d is %d and is ", n, lastDigit);
 if (lastDigit == 0)
 {
