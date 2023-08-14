@@ -8,11 +8,12 @@
  */
 int main(void)
 {
-char letter;
-for (letter = 'z'; letter >= 'a'; letter--)
+char hexDigits[] = "0123456789abcdef";    
+int i;
+for (i = 0; i < 16; i++)
 {
-putchar(letter);
-}
+putchar(hexDigits[i]);
+}    
 putchar('\n');
 return (0);
 }
