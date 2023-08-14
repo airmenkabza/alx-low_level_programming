@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+
 /**
  * main - Entry point of the program
  *
@@ -10,9 +11,8 @@
  */
 int main(void)
 {
-int n = 980;
 int lastDigit = n % 10;
-if (n < 0)
+if (lastDigit < 0)
 {
 lastDigit = -lastDigit;
 }
