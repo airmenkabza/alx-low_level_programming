@@ -11,11 +11,13 @@
 int main(void)
 {
 int n;
-int lastDigit;
-srand(time(0));
-n = rand() % 100;
-lastDigit = n % 10;
+int lastDigit = n % 10;
 printf("Last digit of %d is ", n);
+if (lastDigit < 0)
+{
+lastDigit *= -1; // Make sure last digit is positive for display
+}
+printf("Last digit of %d is %d and is ", n, lastDigit);
 if (lastDigit > 5)
 {
 printf("%d and is greater than 5\n", lastDigit);
