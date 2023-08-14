@@ -10,23 +10,22 @@
  */
 int main(void)
 {
-    int n = 0;
+int n = 0;
+srand(time(0));            /* Seed the random number generator using the current time */
+n = rand() - RAND_MAX / 2; /* Generate a random number between -RAND_MAX/2 and RAND_MAX/2 */
 
-    srand(time(0));            /* Seed the random number generator using the current time */
-    n = rand() - RAND_MAX / 2; /* Generate a random number between -RAND_MAX/2 and RAND_MAX/2 */
+if (n < 0)
+{
+printf("%d is negative\n", n);
+}
+else if (n > 0)
+{
+printf("%d is positive\n", n);
+}
+else if (n == 0)
+{
+printf("%d is zero\n", n);
+}
 
-    if (n < 0)
-    {
-        printf("%d is negative\n", n);
-    }
-    else if (n > 0)
-    {
-        printf("%d is positive\n", n);
-    }
-    else if (n == 0)
-    {
-        printf("%d is zero\n", n);
-    }
-
-    return 0;
+return (0);
 }
