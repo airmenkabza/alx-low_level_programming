@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-
 /**
  * main - Entry point of the program
  *
@@ -11,6 +10,9 @@
  */
 int main(void)
 {
+int n;
+srand(time(0));
+n=rand();
 int lastDigit = n % 10;
 if (lastDigit < 0)
 {
