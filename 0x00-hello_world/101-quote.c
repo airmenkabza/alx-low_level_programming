@@ -3,11 +3,12 @@
 /**
  * main - Entry point of the program
  *
- * Description: Prints a message using the puts function.
+ * Description: Prints an error message using the write function.
  *
- * Return: Always 0 (Success)
+ * Return: Always 1 (Error)
  */
-int main(void) {
+int main(void)
+{
 const char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 write(2, message, strlen(message));
 return (1);
