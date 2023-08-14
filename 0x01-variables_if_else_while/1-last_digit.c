@@ -14,7 +14,7 @@ int n;
 int lastDigit;
 srand(time(0));
 n = rand();
-lastDigit = n%10;
+lastDigit = n % 10;
 if (lastDigit < 0)
 {
 lastDigit = -lastDigit;
