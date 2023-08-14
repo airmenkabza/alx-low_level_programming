@@ -1,5 +1,11 @@
 #include <stdio.h>
-/*main - function prints size off*/
+/**
+ * main - Entry point of the program
+ *
+ * Description: Prints a message using the puts function.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void) 
 {
 printf("Size of char: %lu byte(s)\n", sizeof(char));
