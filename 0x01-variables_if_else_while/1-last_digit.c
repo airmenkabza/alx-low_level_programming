@@ -4,31 +4,30 @@
 /**
  * main - Entry point of the program
  *
- * Description: Prints the last digit of a random number.
+ * Description: Prints the last digit of a number.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int n;
+int n = 980;
 int lastDigit = n % 10;
-printf("Last digit of %d is ", n);
-if (lastDigit < 0)
+if (n < 0)
 {
-lastDigit *= -1; // Make sure last digit is positive for display
+lastDigit = -lastDigit;
 }
 printf("Last digit of %d is %d and is ", n, lastDigit);
-if (lastDigit > 5)
+if (lastDigit == 0)
 {
-printf("%d and is greater than 5\n", lastDigit);
+printf("0\n");
 }
-else if (lastDigit == 0)
+else if (lastDigit > 5)
 {
-printf("%d and is 0\n", lastDigit);
+printf("greater than 5\n");
 }
 else
 {
-printf("%d and is less than 6 and not 0\n", lastDigit);
+printf("less than 6 and not 0\n");
 }
 return (0);
 }
