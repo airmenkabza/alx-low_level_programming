@@ -14,7 +14,7 @@ return (n);
 int main(void)
 {
 int testValues[] = {-1, 0, 1, -98};
-int i;
+size_t i;
 for (i = 0; i < sizeof(testValues) / sizeof(testValues[0]); i++)
 {
 printf("%d\n", _abs(testValues[i]));
