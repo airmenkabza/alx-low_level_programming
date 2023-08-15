@@ -8,10 +8,10 @@
  */
 int main(void)
 {
+int i;
 int fib[50];
 fib[0] = 1;
 fib[1] = 2;
-int i;
 int j;
 for (i = 2; i < 50; i++)
 {
