@@ -21,7 +21,6 @@ else
 printf(", %2d", result);
 }
 }
-putchar('$');
 putchar('\n');
 }
 }
