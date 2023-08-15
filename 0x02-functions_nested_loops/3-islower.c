@@ -15,7 +15,7 @@ return (0);
 int main(void)
 {
 char testChars[] = {'a', 'B', 'c'};
-int i;
+size_t i;
 for (i = 0; i < sizeof(testChars) / sizeof(testChars[0]); i++)
 {
 printf("%d", _islower(testChars[i]));
