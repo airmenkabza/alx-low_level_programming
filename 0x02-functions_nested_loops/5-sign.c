@@ -29,10 +29,10 @@ return (-1);
 int main(void)
 {
 int testNumbers[] = {5, 0, -3};
-int i;
+size_t i;
+int result;
 for (i = 0; i < sizeof(testNumbers) / sizeof(testNumbers[0]); i++)
-{
-int result    
+{  
 result = print_sign(testNumbers[i]);
 printf(", %d\n", result);
 }
