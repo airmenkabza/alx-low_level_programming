@@ -8,10 +8,8 @@
  */
 int main(void)
 {
-unsigned long int term1;
-term1 = 1;
-unsigned long int term2;
-term2 = 2;
+unsigned long int term1 = 1;
+unsigned long int term2 = 2;
 unsigned long int nextTerm;
 int count;
 printf("%lu, %lu", term1, term2);
