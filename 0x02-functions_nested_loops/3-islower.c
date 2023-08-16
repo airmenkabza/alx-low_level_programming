@@ -5,7 +5,7 @@
  *  The character to be
  *Return: 1 if c is lowercase, 0
  */
-int _islower(int c)//int c param
+int _islower(int c) /*int c param*/
 {
 if (c >= 'a' && c <= 'z')
 return (1);
