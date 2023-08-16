@@ -3,7 +3,8 @@
 /**
  *_abs - Computes the absolute value
  *The integer for which to compute
- *Return: The absolute value of n.
+ * Return: The absolute value of n.
+ * parameter or member 'n'.
  */
 int _abs(int n)
 {
