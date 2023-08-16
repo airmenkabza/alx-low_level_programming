@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * jack_bauer - Prints every minute of the day of Jack Bauer.
+ * jack_bauer - Prints every minute of
+ * the day of Jack Bauer.
  */
 void jack_bauer(void)
 {
@@ -14,9 +15,4 @@ for (minute = 0; minute < 60; minute++)
 printf("%02d:%02d\n", hour, minute);
 }
 }
-}
-int main(void)
-{
-jack_bauer();
-return 0;
 }
