@@ -15,8 +15,8 @@ if ((c >= 'a' && c <= 'z')
 {
 return (1);
 }
-{
 if else
+{
 return (0);
 }
 }
