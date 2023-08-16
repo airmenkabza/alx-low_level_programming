@@ -19,8 +19,8 @@ fib[i] = fib[i - 1] + fib[i - 2];
 }
 for (i = 0; i < 49; i++)
 {
-printf("%lld, ", fib[i]);
+printf("%lu, ", fib[i]);
 }
-printf("%lld\n", fib[49]);
+printf("%lu\n", fib[49]);
 return (0);
 }
