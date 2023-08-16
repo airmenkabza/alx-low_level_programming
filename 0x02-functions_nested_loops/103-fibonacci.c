@@ -3,8 +3,8 @@
 /**
  * main - Entry point of the program.
  *
- * Description: Calculates and prints the sum of even-valued terms in the Fibonacci sequence
- *              whose values do not exceed 4,000,000.
+ * Description: Calculates and prints th
+ * whose values do not exceed 4,000,000.
  *
  * Return: Always 0 (Success).
  */
@@ -14,8 +14,8 @@ int term1;
 int term2;
 int nextTerm;
 int sum;
-term1= 1;
-term2 = 2; 
+term1 = 1;
+term2 = 2;
 sum = 0;
 while (term1 <= 4000000)
 {
