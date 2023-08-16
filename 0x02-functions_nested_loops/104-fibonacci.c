@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /**
  * main - Entry point of the program.
  *
@@ -23,3 +24,4 @@ term2 = nextTerm;
 printf("\n");
 return (0);
 }
+ 
