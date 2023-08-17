@@ -3,7 +3,6 @@
  * Fizz - Prints a square of
  * '#' characters.
  * @size: The FizzBuzz of the printf("Fizz ");
-.
  */
 int main(void)
 {
